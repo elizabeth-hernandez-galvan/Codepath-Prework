@@ -11,6 +11,19 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
+    <h1>Memory Game</h1>
+    <p>
+        <button id="startBtn" onclick="startGame()">Start</button>
+        <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    </p>
     
+    <div id="Buttons">
+        <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+        <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+        <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+        <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+        <button id="button5" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+        <button id="button6" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+    </div>
   </body>
 </html>
