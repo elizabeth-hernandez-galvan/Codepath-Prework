@@ -1,3 +1,10 @@
+// Buttons
+function lightButton(btn){
+    document.getElementById("button"+btn).classList.add("lit")
+  }
+  function clearButton(btn){
+    document.getElementById("button"+btn).classList.remove("lit")
+  }
 // Sound Synthesis Functions
 const freqMap = {
     1: 261.6,
