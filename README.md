@@ -6,7 +6,8 @@ Submitted by: **Elizabeth Hernandez Galvan**
 
 Time spent: **#** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: (https://glitch.com/edit/#!/sequoia-poised-server)
+Link to live site: (https://sequoia-poised-server.glitch.me)
 
 ## Required Functionality
 
